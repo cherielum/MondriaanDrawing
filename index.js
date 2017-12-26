@@ -53,7 +53,7 @@ c.stroke();
 //Line -- third horizontal 
 c.beginPath();
 c.moveTo(800, 750);
-c.lineTo(300,750);
+c.lineTo(320,750);
 c.lineWidth = 25;
 c.stroke();
 
@@ -62,28 +62,9 @@ c.fillStyle = "white";
 c.fillRect(320, 540, 1050, 200);
 console.log(canvas);
 
-//Sqaure -- fourth square - bright yellow
-c.fillStyle = "rgb(255, 251, 0)";
-c.fillRect(760, 740, 122, 195);
-console.log(canvas);
-
 //Squaure -- fifth square - white
 c.fillStyle = "white";
 c.fillRect(1425, 538, 262, 64);
 console.log(canvas);
-
-//Line -- second column part II 
-c.beginPath();
-c.moveTo(750, 540);
-c.lineTo(750, 940 );
-c.lineWidth = 20;
-c.stroke();
-
-//Line -- last horizontal 
-c.beginPath();
-c.moveTo(900, 751);
-c.lineTo(700, 751);
-c.lineWidth = 25;
-c.stroke();
 
 
