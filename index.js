@@ -50,21 +50,11 @@ c.lineTo(140, 530 );
 c.lineWidth = 50;
 c.stroke();
 
-//Line -- third horizontal 
-c.beginPath();
-c.moveTo(800, 750);
-c.lineTo(320,750);
-c.lineWidth = 25;
-c.stroke();
 
-//Sqaure -- third square - white
+//Squaure -- third square - white
 c.fillStyle = "white";
-c.fillRect(320, 540, 1050, 200);
+c.fillRect(320, 540, 1100, 300);
 console.log(canvas);
 
-//Squaure -- fifth square - white
-c.fillStyle = "white";
-c.fillRect(1425, 538, 262, 64);
-console.log(canvas);
 
 
